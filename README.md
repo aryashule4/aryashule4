@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @aryashule4
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-aryashule4/aryashule4 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+$ pkg update && pkg upgrade
+$ pkg install python git
+$ pip install requests bs4 futures
+$ pip install rich
+$ pip install requests
+$ pip install mechanize
+$ pip install bs4
+$ pip install pycryptodome
+git clone https://github.com/aryashule4/aryashule4
+cd aryashule4
+git pull
+python HackFb.py
