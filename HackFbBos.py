@@ -120,7 +120,7 @@ def login():
 		head = {"User-Agent": "Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36"}
 		link = ses.get("https://web.facebook.com/adsmanager?_rdc=1&_rdr", headers=head, cookies={"cookie": cok})
 		find = re.findall('act=(.*?)&nav_source', link.text)
-		if len(find) == 0:print(f'> {m}masukan cookies sayang / ganti cookie lain !!!');time.sleep(2);exit()
+		if len(find) == 0:print(f'> {m} cookies kadaluarsa / ganti cookie lain !!!');time.sleep(2);exit()
 		else:
 			for x in find:
 				xz = ses.get(f"https://web.facebook.com/adsmanager/manage/campaigns?act={x}&nav_source=no_referrer", headers = head, cookies={"cookie": cok})
