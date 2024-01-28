@@ -20,4 +20,4 @@ cd aryashule4
 
 git pull
 
-python HackFbBos.py
+python HackFacebook.py
