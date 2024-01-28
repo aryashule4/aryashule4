@@ -110,7 +110,7 @@ def ipin():
 
 def banner():
 	clear()
-	luciver_xp(f'''\x1b[1;92m █████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93m2024 Spesial\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Arya shule  \x1b[1;97m               ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/aryashule4\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/Aryaphutra\x1b[\x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[•] Salam Dari Bima Nusa tenggara barat \n''')              
+	luciver_xp(f'''\x1b[1;92m █████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93m2024 Spesial\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mAuthor   \x1b[1;91m:  \x1b[1;96m Arya Shule  \x1b[1;97m               ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/LuciverXp\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/LuciverTrojans\x1b[\x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[•] Aku Adalah Luciver Xploit Yang Ganteng\n''')              
 
 def login():
 	os.system('clear')
@@ -291,22 +291,8 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
-				if len(frs)<3:
-					pwv.append(nmf)
-				else:
-					pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
-					pwv.append(frs+'a')
-					pwv.append(frs+'b')
-					pwv.append(frs+'c')
-					pwv.append(frs+'d')
-					pwv.append(frs+'e')
-					pwv.append(frs+'f')
-					pwv.append(frs+'g')
-					pwv.append(frs+'h')
-					pwv.append(frs+'i')
-					pwv.append(frs+'j')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
 					pwv.append(frs+'321')
@@ -320,16 +306,6 @@ def passwrd():
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
 					pwv.append(frs+'321')
-					pwv.append(frs+'a')
-					pwv.append(frs+'b')
-					pwv.append(frs+'c')
-					pwv.append(frs+'d')
-					pwv.append(frs+'e')
-					pwv.append(frs+'f')
-					pwv.append(frs+'g')
-					pwv.append(frs+'h')
-					pwv.append(frs+'i')
-					pwv.append(frs+'j')
 					pwv.append(frs+'01')
 					pwv.append(frs+'02')
 					pwv.append(frs+'03')
@@ -433,4 +409,3 @@ if __name__=='__main__':
 	except:pass
 	time.sleep(3)
 	menu()
- 
