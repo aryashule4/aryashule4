@@ -146,7 +146,7 @@ def login():
 	us = inputD('[?]Email/HP')
 	pa = inputD('[?]Kata Sandi')
 	tampil('\rh[*]Sedang Login....')
-	link = ses.get('https://web.facebook.com')
+	buka('https://web.facebook.com')
 	br.select_form(nr=0)
 	br.form['email']=us
 	br.form['pass']=pa
