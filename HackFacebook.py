@@ -338,8 +338,7 @@ def passwrd():
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'20')
+					pwv.append(frs+'@')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
