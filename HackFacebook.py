@@ -338,6 +338,10 @@ def passwrd():
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
+					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
 					pwv.append(frs+'321')
 					pwv.append(frs+'02')
 					pwv.append(frs+'09')
